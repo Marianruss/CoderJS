@@ -1,0 +1,127 @@
+.main-title {
+    
+    justify-self: flex-end;
+
+}
+
+.check-recetas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 13px;
+    grid-area: 2 / 1 / 3 / 2;
+    background-color: rgba(0, 0, 255, 0.383);
+    width: 370px;
+    margin-left: 10px;
+}
+
+.search-button {
+    grid-area: 4 / 1 / 5 / 3;
+    width: 120px;
+    align-self: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background-color: bisque;
+    border-radius: 40px;
+}
+
+.search-button:hover{
+    background-color:rgba(255, 127, 80, 0.615);
+}
+
+.check-recetas-title {
+    display: grid;
+    grid-area: 1 / 1 / 2 / 3;
+    font-size: 13px;
+    margin: 10px;
+}
+
+.ingredients-a {
+    margin-left: 20px;
+    grid-area: 3 / 1 / 4 / 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.ingredients-b {
+    grid-area: 3 / 2 / 4 / 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe {
+    grid-area: 2 / 2 / 3 / 3;
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    margin-right: 30px;
+    width: 100%;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    /* background-color: aquamarine; */
+    padding: 7px;
+    border-bottom: 3px solid black;
+}
+
+.nav-bar a:hover{
+    color: black;
+}
+
+.nav-opt{
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    border: none;
+    padding: 11px;
+    background-color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-opt:hover{
+    background-color:rgba(255, 127, 80, 0.615);
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.recipe-photo{
+    background-image:url("../significado_de_los_tatuajes_vikingos_49430_600.jpg");
+    background-position: center;
+    background-size: cover;
+    align-self: center;
+    margin-left: 70px;
+    width: 250px;
+    height: 300px;
+    background-color: blueviolet;
+}
+
+.recipe-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+}
+
+.recipe-name{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.recipe-instructions{
+    margin-left: 100px;
+    
+    align-self: center;
+    justify-self: center;
+}
+
+.footer{
+    background-color: rgba(220, 20, 60, 0.633);
+}
