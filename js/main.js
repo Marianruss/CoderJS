@@ -43,7 +43,7 @@ function setRecipe(){
 // console.log(test[1])
 setRecipe()
 createli()
-// const receta = selectReceta();
+const receta = selectReceta();
 
 
 
