@@ -34,20 +34,25 @@ function createli() {
 
 }
 
+function setRecipe(){
+    var instructions = test[0];
+    document.getElementById("instructions").innerText = instructions
+
+}
+
 // console.log(test[1])
+setRecipe()
 createli()
-const receta = selectReceta();
+// const receta = selectReceta();
 
 
-if (receta.toLowerCase() === "nada") {
+
+if (receta.toLowerCase() === null) {
     alert(`No podes cocinar nada con esos ingredientes`)
 } else {
     alert(`Con tus ingredientes podes cocinar ${receta}`)
 }
 
-var instructions = test[0];
-
-document.getElementById("instructions").innerText = instructions
 
 
 
