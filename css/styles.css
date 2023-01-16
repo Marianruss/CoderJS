@@ -310,6 +310,7 @@ header .nav-bar .drop-content a:hover {
     .botones{
         width: 150px;
         font-size: smaller;
+        margin-left: 60px;
     }
 
     .prevButton{
