@@ -8,10 +8,11 @@
         rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
         crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 
-<body>
+<body class="body">
 
     <header>
         <nav class="nav-bar">
@@ -58,31 +59,44 @@
                 <label><input type="checkbox" id="cbox1" class="ingredient">Huevo</label>
             </div>
 
-            <button class="search-button" id="test1">Buscar</button>
+            <button class="button" id="test1">Buscar</button>
         </div>
 
 
-        <div class="recipe container-fluid">
-            <div class="recipe-photo"></div>
-            <div class="recipe-text container-fluid">
+        <div class="recipe">
+        <div class="photoandButton">
+            <img class="recipe-photo" id="recipe-photo" data-aos="fade-left">
+        <div class="botones">
+            <button id="prev-recipe" class="button prevButton">Anterior</button>
+            <button id="next-recipe" class="button nextButton">Siguiente</button>            
+        </div>
+        </div>
+            <div class="recipe-text ">
                 <h4 class="recipe-name" id="recipe-name">test</h4>
-                <div class="receta container-fluid">
+                <div class="receta">
                     <h6 class="text-ingredients">Ingredientes</h6>
                     <p class="ingredients-list" id="ingredients-list">test</p>
                     <h6 class="text-ingredients">Instrucciones</h6>
                     <p class="instrucciones" id="instructions">test</p>
                 </div>
+                
             </div>
+            
         </div>
+        
     </div>
 
     <footer class="footer">
         <ul class="footer-list">
-            <li class="footer-opt">test</li>
-            <li class="footer-opt">test</li>
-            <li class="footer-opt">test</li>
+            <li class="footer-opt"><a href="#">Buscador de recetas</a></li>
+            <li class="footer-opt"><a href="#">Todas las recetas</a></li>
+            <!-- <li class="footer-opt">test</li> -->
         </ul>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.js" type="module"></script>
     <script src="js/recetas.js" type="module"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
