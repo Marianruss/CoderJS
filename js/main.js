@@ -1,100 +1,57 @@
 import { recetas } from "./recetas.js";
 let numero = 0;
-
-//setear boton para siguiente receta
-let botonNext = document.getElementById("next-recipe")
-botonNext.addEventListener("click", nextRecipe)
-
-//setear boton para anterior receta
-let botonPrev = document.getElementById("prev-recipe")
-botonPrev.addEventListener("click", previousRecipe)
+let array = []
 
 function selectReceta() {
     let end = false
     while (end != true) {
-        let ingrediente = prompt('Selecciona un ingrediente principal:\n- Queso\n- Papa');
-        if (ingrediente.toLowerCase() === "queso") {
-            end = true;
-            return ("Pizza")
+        let ingrediente = prompt('Selecciona los ingredientes principales principal:\n1- Albahaca y tomate\n2- Pollo y queso');
+        
+        if (isNaN(ingrediente)){
+            alert("Ingresa un numero")
         }
-        else if (ingrediente.toLowerCase() === "papa") {
+
+        else if (parseInt(ingrediente) === 1){
+            array.push(ingrediente)
+            end = true;
+            return (1)
+        }
+        else if (parseInt(ingrediente) === 2) {
+            array.push(ingrediente)
             end = true
-            return ("Puré")
+            return (2)
+        }
+        else if ((parseInt(ingrediente) >= 3) || (parseInt(ingrediente) <= 0)){
+            alert("Elegí un número entre 1 y 2")
         }
         else { alert("Ingresa una opción valida") }
     }
 }
 
-function imageAtributes(img, title) {
-    img.height = "200px";
-    img.width = "250px";
-    img.alt = title;
+function mostrarReceta(index) {
+    alert(`Con tu ingredientes podes cocinar ${recetas[index].nombreReceta}`)
+    alert("Verás las instrucciones a continación")
+    alert(`Para cocinar ${recetas[index].nombreReceta} necesitas: \n\n${recetas[index].ingredientes}`)
+    alert(`Es una receta muy facil, en la proxima ventana verás las instrucciones`)
+    alert(`Los pasos para preparar ${recetas[index].nombreReceta} son:\n\n${recetas[index].instrucciones}`)
 }
 
 
-function setRecipe(recipeNumber) {
-    // const [boton1,boton2] = setButtons()
-    //asignamos los datos de los objetos a variables
-    let instructions = recetas[recipeNumber].instrucciones;
-    let ingredients = recetas[recipeNumber].ingredientes
-    let titulo = recetas[recipeNumber].nombreReceta;
-    let fondo = recetas[recipeNumber].foto;
 
-    //asignamos los valores a los tags html
-    document.getElementById("instructions").innerText = instructions;
-    document.getElementById("ingredients-list").innerText = ingredients;
-    document.getElementById("recipe-name").innerText = titulo;
-    const back = document.getElementById("recipe-photo");
-    back.src = fondo
-    imageAtributes(back, titulo)
+const receta = selectReceta();
 
-    //escondemos botones si no hay mas elementos
-    if (recipeNumber == 0) {
-        botonPrev.style.visibility = "hidden";
-    }
-    else { botonPrev.style.visibility = "visible" }
+console.log(array[0])
 
-    if (recipeNumber == recetas.length-1) {
-        botonNext.style.visibility = "hidden";
-    }
-    else { botonNext.style.visibility = "visible" }
+// mostrarReceta(0)
 
+if (receta === null) {
+    alert(`No podes cocinar nada con esos ingredientes`)
+} else if (receta == 1){
+    mostrarReceta(0)
+}
+else if (receta == 2){
+    mostrarReceta(1)
 }
 
-
-setRecipe(numero)
-// const receta = selectReceta();
-
-
-
-// if (receta.toLowerCase() === null) {
-//     alert(`No podes cocinar nada con esos ingredientes`)
-// } else {
-//     alert(`Con tus ingredientes podes cocinar ${receta}`)
-// }
-
-
-
-
-
-// if (numero === 0) {
-//     botonPrev.style.visibility = "hidden";
-// }
-
-
-
-
-
-
-
-function nextRecipe() {
-    numero++
-    setRecipe(numero)
-}
-
-function previousRecipe() {
-    numero--
-    setRecipe(numero)
-}
 
 
