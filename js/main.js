@@ -2,26 +2,63 @@ import { recetas } from "./recetas.js";
 let numero = 0;
 let array = []
 
-function selectReceta() {
+//Función para saber si es vegano
+function vegano() {
     let end = false
+
     while (end != true) {
-        let ingrediente = prompt('Selecciona los ingredientes principales principal:\n1- Albahaca y tomate\n2- Pollo y queso');
-        
-        if (isNaN(ingrediente)){
+        let veggie = prompt("Sos vegano?\n1- Si\n2- No")
+        if (parseInt(veggie) == 1) {
+            return true
+        }
+        else if (parseInt(veggie) === 2) {
+            return false
+        }
+    }
+}
+
+//Función para borrar recetas dependiendo del atributo vegano
+function eliminarRecetas(recetas) {
+    for (let i = 0; i < recetas.length-1; i++) {
+        if (recetas[i].veggie  === false) {
+            recetas.splice(i,1);
+            i--;
+        }
+    }
+}
+
+
+function selectReceta(vegano) {
+    let end = false;
+    let ingrediente;
+    // const ingrediente = parseInt(prompt(message))
+
+    while (end != true) {
+        if (vegano === false) {
+            ingrediente = prompt('Selecciona los ingredientes principales principal:\n1- Albahaca y tomate\n2- Pollo y queso');
+            
+        }
+        else {
+            ingrediente = prompt('Selecciona los ingredientes principales principal:\n1- Albahaca y tomate\n2- Tomate Cherry y brocoli');
+            eliminarRecetas(recetas)
+        }
+        ingrediente = parseInt(ingrediente)
+
+        if (isNaN(ingrediente)) {
             alert("Ingresa un numero")
         }
 
-        else if (parseInt(ingrediente) === 1){
+        else if (ingrediente === 1) {
             array.push(ingrediente)
             end = true;
             return (1)
         }
-        else if (parseInt(ingrediente) === 2) {
+        else if (ingrediente === 2) {
             array.push(ingrediente)
             end = true
             return (2)
         }
-        else if ((parseInt(ingrediente) >= 3) || (parseInt(ingrediente) <= 0)){
+        else if ((ingrediente >= 3) || (ingrediente <= 0)) {
             alert("Elegí un número entre 1 y 2")
         }
         else { alert("Ingresa una opción valida") }
@@ -37,19 +74,23 @@ function mostrarReceta(index) {
 }
 
 
+//Auxiliar para mostrar array
+function showArray(array) {
+    for (let i = 0; i < array.length; i++) {
+        console.log(array[i])
+    }
+}
 
-const receta = selectReceta();
+const esVegano = vegano();
+const receta = selectReceta(esVegano);
 
-console.log(array[0])
-
-// mostrarReceta(0)
 
 if (receta === null) {
     alert(`No podes cocinar nada con esos ingredientes`)
-} else if (receta == 1){
+} else if (receta == 1) {
     mostrarReceta(0)
 }
-else if (receta == 2){
+else if (receta == 2) {
     mostrarReceta(1)
 }
 
