@@ -50,7 +50,8 @@
 }
 
 .ingredients-a {
-    margin-left: 20px;
+    margin-left: 10px;
+    width: 120px;
     grid-area: 3 / 1 / 4 / 2;
     display: flex;
     flex-direction: column;
@@ -107,6 +108,8 @@ header .nav-bar .drop-content a:hover {
 .ingredients-b {
     grid-area: 3 / 2 / 4 / 3;
     display: flex;
+    margin-left: 10px;
+    width: 120px;
     flex-direction: column;
 }
 
@@ -147,6 +150,7 @@ header .nav-bar .drop-content a:hover {
 }
 
 .ingredient {
+    margin-top: 0;
     color: white;
 }
 
