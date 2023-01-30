@@ -69,6 +69,7 @@ header .nav-bar .dropdown {
 
 header .nav-bar .dropdown:hover .drop-content {
     display: block;
+    /* width: 150px; */
 }
 
 header .nav-bar .dropdown .dropbutton {
@@ -86,7 +87,7 @@ header .nav-bar .drop-content {
     position: absolute;
     display: none;
     background-color: white;
-    min-width: 160px;
+    min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     margin-bottom: 100px;
@@ -103,7 +104,6 @@ header .nav-bar .drop-content a {
 header .nav-bar .drop-content a:hover {
     background-color: grey;
 }
-
 
 .ingredients-b {
     grid-area: 3 / 2 / 4 / 3;
@@ -125,7 +125,7 @@ header .nav-bar .drop-content a:hover {
     overflow-y: scroll;
 }
 
-.botones{
+.botones {
     display: flex;
     flex-direction: row;
     width: 300px;
@@ -157,7 +157,7 @@ header .nav-bar .drop-content a:hover {
 .recipe-photo {
     /* background-image: url("../images/tostada-caprese.jpg"); */
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     align-self: center;
     object-fit: fill;
     margin-left: 70px;
@@ -192,7 +192,7 @@ header .nav-bar .drop-content a:hover {
     align-self: flex-start;
 }
 
-.photoandButton{
+.photoandButton {
     display: flex;
     flex-direction: column;
     row-gap: 30px;
@@ -217,21 +217,21 @@ header .nav-bar .drop-content a:hover {
     flex-direction: row;
 }
 
-.footer-list{
+.footer-list {
     margin-left: 5px;
     margin-top: 20px;
 }
 
-.footer-list li{
+.footer-list li {
     list-style-type: none;
 }
 
-.footer-list li a{
+.footer-list li a {
     text-decoration: none;
     color: white;
 }
 
-.footer-opt{
+.footer-opt {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -269,7 +269,7 @@ header .nav-bar .drop-content a:hover {
         flex-direction: column;
     }
 
-    .body{
+    .body {
         /* width: 300px; */
         height: auto;
         margin: 0px;
@@ -281,9 +281,9 @@ header .nav-bar .drop-content a:hover {
         justify-self: center;
     }
 
-    .recipe{
+    .recipe {
         flex-direction: column;
-        height:auto;
+        height: auto;
         margin-bottom: 30px;
         /* width: 350px; */
         height: 500px;
@@ -292,52 +292,52 @@ header .nav-bar .drop-content a:hover {
 
     }
 
-    .receta{
+    .receta {
         width: 300px;
     }
 
-    .ingredients-list{
+    .ingredients-list {
         row-gap: 0px;
         column-gap: 0px;
         grid-template-columns: repeat(1, 1fr);
 
     }
 
-    .recipe-photo{
+    .recipe-photo {
         width: 200px;
         height: 200px;
         margin-top: 30px;
         margin-left: 0px;
         border-radius: 40px;
     }
-    
-    .botones{
+
+    .botones {
         width: 150px;
         font-size: smaller;
         margin-left: 60px;
     }
 
-    .prevButton{
+    .prevButton {
         width: 100px;
     }
 
-    .nextButton{
+    .nextButton {
         width: 100px;
     }
 
-    .photoandButton{
+    .photoandButton {
         margin-right: 0px;
     }
 
-    .ingredients-list{
+    .ingredients-list {
         width: 300px;
     }
 
-    .recipe-text{
+    .recipe-text {
         margin-left: 20px;
     }
 
-    .footer{
+    .footer {
         width: 100%;
     }
 

@@ -22,28 +22,17 @@ function vegano() {
     localStorage.removeItem(vegano)
 
     if (localStorage.getItem(vegano) === null) {
-        let veggie = confirm("Sos vegano?\n1- Si\n2- No")
-        if (veggie === true) {
+        let veggie = prompt("Sos vegano?\n1- Si\n2- No")
+        if (veggie == "1") {
             localStorage.setItem(vegano, true)
             eliminarRecetasVeganas()
         } else { localStorage.setItem(vegano, false) }
     }
     console.log(localStorage.getItem(vegano))
     setRecipe(numero)
-    return value
-    
 }
 
 
-
-// function checkVegano() {
-//     let test = localStorage.getItem(vegano)
-//     if (test === true) {
-//         eliminarRecetasVeganas(recetas)
-//     }
-// }
-
-// checkVegano(esVegano)
 
 //Función para borrar recetas dependiendo del atributo vegano
 function eliminarRecetasVeganas() {
@@ -206,9 +195,9 @@ function compareIngredients(checked) {
 function getCheckedBoxes() {
     var checkboxes = document.getElementsByName('cbox');
     var checkboxesChecked = [];
-    // loop over them all
+    // loop sobre los checkboxes
     for (var i = 0; i < checkboxes.length; i++) {
-        // And stick the checked ones onto an array...
+        // cargamos los marcados en un array
         if (checkboxes[i].checked) {
             checkboxesChecked.push(checkboxes[i].value);
         }
@@ -219,31 +208,27 @@ function getCheckedBoxes() {
         compareIngredients(checkboxesChecked)        
     }
     
-    // Return the array if it is non-empty, or null
+    // retorna el array si no está vacio
     return checkboxesChecked.length > 0 ? checkboxesChecked : null;
 }
 
 
-
-vegano()
-// checkVegano()
-setRecipe(numero)
-// if (isVegan === true){
-//     eliminarRecetasVeganas()
-// }
-
-
+//funciones para cambiar las recetas.
 function nextRecipe() {
-    if (numero < recetas.length){
     numero++
     setRecipe(numero)
-}  else{
-    alert("no hay mas recetas")
-}
 }
 
 function previousRecipe() {
     numero--
     setRecipe(numero)
 }
+
+
+
+vegano()
+setRecipe(numero)
+
+
+
 
