@@ -17,22 +17,31 @@ botonBuscar.addEventListener("click", getCheckedBoxes)
 
 //Función para saber si es vegano y lo guardamos en localStorage para que no se vuelva a pedir
 function vegano() {
+
+    // Borramos el valor para que lo vuelva a pedir para probar.
+    localStorage.removeItem(vegano)
+
     if (localStorage.getItem(vegano) === null) {
         let veggie = confirm("Sos vegano?\n1- Si\n2- No")
         if (veggie === true) {
             localStorage.setItem(vegano, true)
+            eliminarRecetasVeganas()
         } else { localStorage.setItem(vegano, false) }
     }
+    console.log(localStorage.getItem(vegano))
+    setRecipe(numero)
+    return value
+    
 }
 
 
 
-
-function checkVegano() {
-    if (localStorage.getItem(vegano) === true) {
-        eliminarRecetasVeganas(recetas)
-    }
-}
+// function checkVegano() {
+//     let test = localStorage.getItem(vegano)
+//     if (test === true) {
+//         eliminarRecetasVeganas(recetas)
+//     }
+// }
 
 // checkVegano(esVegano)
 
@@ -44,6 +53,7 @@ function eliminarRecetasVeganas() {
             i--;
         }
     }
+    setRecipe(numero)
 }
 
 function eliminarRecetas(recetas, indice) {
@@ -216,8 +226,12 @@ function getCheckedBoxes() {
 
 
 vegano()
-eliminarRecetasVeganas()
+// checkVegano()
 setRecipe(numero)
+// if (isVegan === true){
+//     eliminarRecetasVeganas()
+// }
+
 
 function nextRecipe() {
     if (numero < recetas.length){
