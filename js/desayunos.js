@@ -146,7 +146,7 @@ function addButtonToDiv(){
     let div = document.getElementById("recipe")
     let button = document.createElement("button")
 
-    button.innerHTML = "Cerrar"
+    button.innerHTML = "X"
 
     button.classList.add("closeButton")
     button.id = "closeButton"
