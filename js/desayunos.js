@@ -1,6 +1,6 @@
 
 let recetas = [];
-
+let number;
 
 
 //Cargamos a un array la info del json.
@@ -23,9 +23,13 @@ async function loadToArray(array) {
 
 //Necesitamos un numero random para mostrar la receta.
 function getRandomNumber() {
-    const numero = Math.floor(Math.random() * recetas.length)
-    return numero
-}
+    let flag = false
+    while (flag === false){
+        const numero = Math.floor(Math.random() * recetas.length)
+        if (numero != number){
+            number = numero
+            return numero
+    }}}
 
 
 function setRecipe(recipeNumber) {
