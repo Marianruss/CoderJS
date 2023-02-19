@@ -1,6 +1,6 @@
 
 let recetas = [];
-
+let isReloading = false;
 
 
 //Cargamos a un array la info del json.
@@ -12,16 +12,19 @@ async function loadToArray(array) {
                 array.push(data.recetas[i])
             }
             vegano()
-            if (localStorage.getItem("vegano")=== "true"){
+            if (localStorage.getItem("vegano") === "true") {
                 eliminarRecetasVeganas()
             }
-           
-
 
         })
 }
 
-
+function reloadPage() {
+    if (!isReloading) {
+        isReloading = true;
+        location.reload();
+    }
+}
 //Necesitamos un numero random para mostrar la receta.
 function getRandomNumber() {
     const numero = Math.floor(Math.random() * recetas.length)
@@ -62,12 +65,11 @@ function setRecipe(recipeNumber) {
 async function init() {
 
     await loadToArray(recetas);
-
     getName()
-    if (localStorage.getItem("vegano") === null){
+
+    if (localStorage.getItem("vegano") === null) {
         vegano()
     }
-    
 
     if (localStorage.getItem("vegano") === "true") {
         eliminarRecetasVeganas()
@@ -76,8 +78,11 @@ async function init() {
     let resetVegano = document.getElementById("reset-vegano")
     resetVegano.addEventListener("click", () => {
         localStorage.removeItem("vegano")
-        location.reload()
+        vegano()
+        
+
     })
+
 
     let botonBuscar = document.getElementById("randomButton");
     botonBuscar.addEventListener("click", () => {
@@ -87,24 +92,31 @@ async function init() {
 }
 
 function vegano() {
-    if (localStorage.getItem("vegano") === null){
-    alertify.confirm('Pregunta vegano', 'Sos vegano?', 
-    function(){ 
-        localStorage.setItem("vegano", "true") 
+    if (localStorage.getItem("vegano") === null) {
+        alertify.confirm('Pregunta vegano', 'Sos vegano?',
+            function () {
+                localStorage.setItem("vegano", "true")
+                reloadPage()
+                isReloading = false
+            }
+            ,
+            function () {
+                localStorage.setItem("vegano", "false")
+                reloadPage()
+                isReloading = false
+            }).set({ labels: { ok: 'Yes', cancel: 'No' } });;
     }
-    , 
-    function(){ 
-        localStorage.setItem("vegano", "false")
-    }).set({labels:{ok:'Yes', cancel:'No'}});;
-}}
+}
 
 function eliminarRecetasVeganas() {
+
     for (let i = 0; i < recetas.length; i++) {
         if (recetas[i].veggie === false) {
             recetas.splice(i, 1);
             i--;
         }
     }
+
 }
 
 
@@ -162,5 +174,6 @@ function showArray(array) {
 
 
 init()
+
 
 
