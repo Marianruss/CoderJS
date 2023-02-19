@@ -1,0 +1,153 @@
+{
+    "recetas": [
+        {
+            "nombreReceta": "Tarta de manzana",
+            "ingredientes": [
+                "100g de galletas tipo maría",
+                "50g de mantequilla",
+                "6 manzanas medianas",
+                "1 vaso de 200ml de leche",
+                "1 vaso de 200ml de harina",
+                "1/2 vaso de 200ml de azúcar",
+                "150g de mermelada de durazno"
+            ],
+            "instrucciones": "Trituramos la galleta. Para ello puedes hacerlo con una batidora americana, una batidora manual o introduciendo las galletas en una bolsa y sacudiéndolas con un rodillo. Después las ponemos en un plato, le añadimos la mantequilla derretida y mezclamos bien con una cuchara. Quedará como una especie de arena gruesa húmeda. Ésto, será la base de nuestra tarta de manzana.\n\nPonemos esta mezcla en el fondo de un molde desmontable para tartas. Con estas cantidades, en uno de 18-20cm, estará bien. Untamos el molde con aceite o con más mantequilla derretida (para que no se pegue la tarta) en introducimos la mezcla de galleta y mantequilla. Esta mezcla será la base de la tarta de manzana. La aplastamos y extendemos por toda la superficie del molde, de tal manera que quede bien compacta. Ésta será la base de nuestra tarta de manzana.\n\nAhora, de nuevo en una batidora americana o un en un vaso batidor, añadimos 4 de las manzanas peladas, sin el corazón y cortadas en cubo, la harina, la leche y el azúcar. Trituramos todo bien.\n\nIntroducimos esta mezcla -que se tratará simplemente del relleno de la tarta de manzana- sobre la base de galleta y mantequilla. Encima, ponemos las otras dos manzanas, también peladas y cortadas en láminas muy finas. Colócacas un poco a lo loco, al azar, o intenta darles una forma armoniosa, si te importa la decoración.\n\nIntroducimos todo en el horno, previamente calentado a 180ºC. Dejamos aquí durante alrededor de 50 minutos.\n\nPasado el tiempo, la sacamos y dejamos templar la tarta de manzana un poco. Un consejo. En este caso, no te fies del viejo truco de pinchar con el palillo porque esta tarta, no termina de cuajar hasta que se haya enfriado por completo. Por ello, mejor esperar a que se enfríe.\n\nUna vez fuera del horno, y después que se haya templado un poco, la desmoldamos y la pintamos por toda su superficie con la mermelada. Le dará un toque muy brillante y mejorará mucho su sabor",
+            "veggie": true,
+            "foto": "../images/recetas-desayunos/tarta-de-manzana.jpg"
+        },
+        {
+            "nombreReceta": "Torta de Oreo",
+            "ingredientes": [
+                "25 galletas oreo (300g)",
+                "150g de mantequilla a temperatura ambiente",
+                "500g de queso crema. Tipo Philadelphia",
+                "500g de nata para montar. También conocida como crema de leche para batir",
+                "2 cucharadas (15g) de gelatina neutra. También puedes emplear 6 hojas si la utilizas en este formato",
+                "80g de azúcar"
+            ],
+            "instrucciones": "Separamos las galletas de la crema. Quitamos una de las galletas y después, con la ayuda de un cuchillo, separamos la crema de la galleta.\n\nPonemos la crema en una cazuela grande. Y la galleta la trituramos ligeramente con la mano y la colocamos sobre una licuadora. Triturar bien. Si no tienes licuadora, puedes utilizar una batidora manual.\n\nCuando haya quedado una especie de arenilla fina, reservamos en un plato aproximadamente 1\/3 de la galleta triturada.\n\nA los 2\/3 restantes, les añadimos la mantequilla a temperatura ambiente y volvemos a batir. Para que se integren bien ambos ingredientes. Ésto, será la base de nuestra tarta.\n\nSeguimos con la tarta de oreo sin horno: Añadimos esta mezcla sobre un molde para tartas desmontable. Con estas cantidades, yo utilicé uno de 20 pero puedes utilizar uno de un tamaño similar sin problemas. Con una cuchara, esparcimos toda la mezcla de galleta y mantequilla por toda la superficie, apretándolo bien y sin dejar huecos libres. Después metemos en la nevera mientras hacemos el siguiente paso\n\nPonemos la cazuela donde tenemos las cremas de la galleta a fuego suave. Echamos la nata, el queso crema, el azúcar y la gelatina y removemos constantemente. Que se derritan todos los ingredientes. Ésta mezcla no debe llegar nunca a hervir o cogería un gusto desagradable.\n\nCuando esté bien deshecho lo añadimos sobre la base de galleta. Dejamos reposar 10 minutos y después volvemos a meter a la nevera un mínimo de 4 horas. Mejor, si es toda una noche entera\n\nAl día siguiente, espolvoreamos con un tamiz, o si no lo tienes con un colador, la galleta que habíamos reservado al principio. La que no tiene mezcla de mantequilla. ¡Desmoldamos y ya esta listo!",
+            "veggie": true,
+            "foto": "../images/recetas-desayunos/torta-de-oreo.jpg"
+        },
+        {
+            "nombreReceta": "Galletas de avena y banana",
+            "ingredientes": [
+                "200g de copos de avena",
+                "2 plátanos",
+                "1 cucharada de canela"
+            ],
+            "instrucciones": "Para comenzar, en un plato, colocamos lo plátanos pelados y los trituramos con un tenedor hasta obtener una especie de puré.\n\nA continuación, en un bol amplio, ponemos la avena, la canela y añadimos el puré de plátano que acabamos de preparar. Mezclamos todo bien hasta obtener una masa bastante densa.\n\nHecho esto, damos forma a nuestras galletas de avena y plátano. Cogemos un poquito de masa y con las manos, hacemos unas bolitas y las damos la forma que queramos.\n\nCuando hayamos acabado con toda la masa, las colocamos las galletas en una bandeja de horno forrada con papel vegetal y las introducimos al horno, previamente calentado a 200ºC. Dejamos que se cocinen durante alrededor de unos 15 minutos hasta que estén doraditas. Pasado ese tiempo sacamos la bandeja del horno, dejamos que se enfríen las galletas de avena y plátano… ¡y listas para comer!",
+            "veggie": true,
+            "foto": "../images/recetas-desayunos/galletas-de-avena.jpg"
+        },
+        {
+            "nombreReceta": "Bizcochuelo de yogur",
+            "ingredientes": [
+                "1 yogur de tamaño estándar (125g) natural (o de sabor limón)",
+                "3 huevos",
+                "2 partes (del envoltorio de yogur) de azúcar",
+                "1 parte de aceite de oliva",
+                "3 partes de harina para repostería",
+                "15g de levadura química. Tipo royal. También es conocida como polvos de hornear",
+                "Una pizca de sal",
+                "Mantequilla y harina para untar el molde"
+            ],
+            "instrucciones": "Sacamos y reservamos el yogur del envase ya que, lo necesitaremos como medidor. Después ponemos los 3 huevos y una de las partes del azúcar en un bol. Lo batimos enérgicamente con una varilla o un tenedor durante unos minutos, hasta que el huevo se haya oxigenado bien y haya doblado su tamaño\n\nAñadimos una pizquita de sal que, aunque sea una receta de cocina dulce, la sal potenciará el sabor, echamos también la otra parte de azúcar, la parte de aceite de oliva y el yogur. Volvemos a batir hasta que se hayan integrado bien todos los ingredientes\n\nPonemos un colador o un tamiz sobre el bol y echamos sobre él las tres partes de harina y la levadura química. Tamizamos y nuevamente volvemos a integrar todos los ingredientes\n\nUntamos un molde para bizcochos (son unos moldes alargados y hondos) con bien de mantequilla y lo espolvoreamos con harina. Esto es importante porque si no el bizcocho se pegará. Después echamos la masa sobre él\n\nFinalmente horneamos. 180ºC, calor arriba y abajo. Tardará alrededor de 30 minutos en cocinarse. Lo sabremos con seguridad cuando pinchemos con un tenedor y éste salga limpio.",
+            "veggie": true,
+            "foto": "../images/recetas-desayunos/bizcocho-de-yogur.jpg"
+        },
+        {
+            "nombreReceta": "Cupcakes de naranja y yogurt",
+            "ingredientes": [
+                "4 huevos",
+                "125g de yogur de limón",
+                "el zumo de 1 naranja",
+                "100ml de aceite de oliva o girasol",
+                "100g de azúcar",
+                "200g de harina",
+                "12g de levadura de repostería",
+                "1 pizca de sal",
+                "10-12 cápsulas de papel para magdalenas"
+            ],
+            "instrucciones": "En un bol o recipiente amplio, ponemos los huevos, el yogur de limón, el zumo de naranja, el aceite y una pizca de sal. Lo mezclamos con unas varillas eléctricas para que todos los ingredientes se integren bien y quede una masa homogénea.\n\nDespués, añadimos el azúcar. En un colador ponemos la harina y la levadura. Lo tamizamos poco a poco sobre la mezcla y lo vamos removiendo de vez en cuando para que todos los ingredientes se mezclen. Cuando acabemos de añadir toda la harina, removemos un poco más hasta que no queden grumos. Dejamos que repose nuestra masa de las magdalenas de naranja y yogur alrededor de 10 minutos y seguimos con el siguiente paso.\n\nCubrimos los moldes con las cápsulas de papel para magdalenas, y ponemos en ellos la mezcla que hemos prepado anteriormente. Hecha una buena cantidad de masa en cada molde sin que llegue a colmarse. Hecho esto, introducimos los moldes en el horno, previamente calentado a 180ºC. Pasados 20 minutos, cuando se hayan dorado, las retiramos del horno. Para ver si esta listas, pinchamos las magdalenas con un palillo. Si éste sale limpio, las magdalenas de naranja y yogur esta listas para servir.",
+            "veggie": true,
+            "foto": "../images/recetas-desayunos/magdalenas-de-naranja.jpg"
+        },
+        {
+            "nombreReceta": "Smoothie de bayas",
+            "ingredientes": [
+                "2 naranjas",
+                "1 trocito de raíz de cúrcuma (como una uña del dedo pulgar)",
+                "3 cucharadas de bayas de goji",
+                "1 trocito de jengibre (una uña del dedo pulgar, opcional)",
+                "Media taza de agua (más, si lo deseas más líquido)"
+            ],
+            "instrucciones": "Paso 1: Pela las naranjas y saca alguna rodaja.\n\nPaso 2: Introduce todos los ingredientes en la batidora.\n\nPaso 3: Bate todo hasta obtener una textura homogénea y ya estará listo para consumir.",
+            "veggie": true,
+            "foto": "../images/recetas-desayunos/smoothie-de-bayas.jpg"
+        },
+        {
+            "nombreReceta": "Crumble de manzana con maiz",
+            "ingredientes": [
+                "4 manzanas ecológicas",
+                "150 gramos de harina de maíz eco",
+                "100 gramos de aceite de girasol",
+                "125 gramos de azúcar integral de caña",
+                "40 gramos de copos de avena",
+                "40 gramos de uvas pasas",
+                "Ralladura de un limón ecológico",
+                "1 vaina de vainilla",
+                "Canela en polvo",
+                "Sal marina"
+            ],
+            "instrucciones": "Paso 1: Lava y seca una de las manzanas y pásala por el rallador grueso. Luego, añade unas gotas de limón para evitar que la manzana se oscurezca.\n\nPaso 2: A continuación, haz un corte longitudinal a la vaina de vainilla y saca las semillas de su interior con cuidado. Calienta una sartén a fuego lento con dos cucharadas de azúcar.\n\nPaso 3: Agrega una cucharada de aceite de girasol, una pizca de canela y las semillas de la vainilla. Cuando el azúcar empiece a caramelizar, agrega la manzana rallada y rehoga todo unos 4 o 5 minutos.\n\nPaso 4: Pela y trocea las tres manzanas restantes y añádelas a la sartén junto con la ralladura de limón. Rehoga un par de minutos más, apaga el fuego y reserva.\n\nPaso 5: Precalienta el horno a 180 °C en un bol grande, mezcla la harina de maíz, el resto del aceite de girasol, los copos de avena o de maíz hasta conseguir una mezcla homogénea.\n\nPaso 6: Coloca la manzana rehogada que has reservado en un recipiente apto para horno y reparte por encima la masa seca.\n\nPaso 7: Para terminar, hornea unos 30 o 40 minutos a 180 °C, hasta que la superficie presente un aspecto dorado.",
+            "veggie": true,
+            "foto": "../images/recetas-desayunos/crumble-de-manzana.jpg"
+        },
+        {
+            "nombreReceta": "Pancakes de avena y banana ",
+            "ingredientes": [
+                "5 cucharadas de harina de avena",
+                "100 gramos de fresas",
+                "75 ml de leche vegetal",
+                "2 cucharadas de miel",
+                "½ cucharadita de levadura",
+                "2 cucharadas de azúcar moreno",
+                "Canela",
+                "1 huevo",
+                "2 plátanos",
+                "Mantequilla",
+                "½ cucharadita de esencia de vainilla",
+                "Sal"
+            ],
+            "instrucciones": "Paso 1. Casca el huevo en un bol y bátelo junto con el azúcar. Añade la leche y mezcla.\n\nPaso 2. Tamiza encima la harina con la levadura, la canela y una pizca de sal.\n\nPaso 3. Pela los plátanos. Aplasta uno de ellos con un tenedor y añádelo al bol. Aromatiza con la vainilla. Bate hasta conseguir una crema homogénea.\n\nPaso 4. Calienta 1 cucharada de mantequilla en una sartén antiadherente pequeña y cuaja la masa anterior en forma de tortitas. Cuécelas 2 minutos por cada lado. Retíralas y resérvalas.\n\nPaso 5. Limpia las fresas, lávalas y córtalas con el plátano restante en rodajas.\n\nPaso 6. Reparte las tortitas en los platos intercalando tortitas y capas de fruta. Vierte la miel por encima y sirve.",
+            "veggie": true,
+            "foto": "../images/recetas-desayunos/tortitas-de-avena.jpg"
+        },
+        {
+            "nombreReceta": "Compota de manzana con queso fresco",
+            "ingredientes": [
+                "4 manzanas golden",
+                "3 naranjas",
+                "300 gramos de queso fresco batido",
+                "4 cucharadas de yogur natural desnatado",
+                "1 cucharada de azúcar",
+                "Una pizca de canela en polvo"
+            ],
+            "instrucciones": "Paso 1. Pela las manzanas, córtalas en cuartos, retírales el corazón y pártelas en gajos. Exprime las naranjas, vierte el zumo en un cazo y añade unas tiras de piel de naranja lavadas. Agrega las manzanas, tapa y deja cocer durante 15 minutos hasta obtener una compota. Retírala y déjala enfriar.\n\nPaso 2. En un bol, echa el queso con 100 ml de agua, el yogur y el azúcar. A continuación, con las varillas manuales, bate la mezcla hasta conseguir una crema espesa y de textura homogénea.\n\nPaso 3. Echa la compota en unos cuencos individuales. Cubre con crema de queso fresco, espolvorea con canela en polvo y sirve.",
+            "veggie": true,
+            "foto": "../images/recetas-desayunos/compota-de-manzana.jpg"
+        },
+        {
+            "nombreReceta": "Yogur de coco con granada",
+            "ingredientes": [
+                "Pulpar de 3 cocos jóvenes",
+                "1 taza de agua de coco fresca, reservada de los cocos frescos",
+                "1/8 de cucharadita de probióticos"
+            ],
+            "instrucciones": "Paso 1. Pon la pulpa de coco en una batidora de vaso y bate a velocidad lenta añadiendo poco a poco el agua de coco hasta obtener una crema suave.\n\nPaso 2. Vierte la mezcla en un bol de vidrio y añade los probióticos. Remueve con una cucharada y deja reposar 24 horas en un lugar seco y tibio donde no dé la luz directa del sol o en la fermentadora. Cúbrelo con un paño de algodón limpio.\n\nPaso 3. A las 24 horas, reparte el yogur en 4 botecitos de vidrio con tapa y guarda en la nevera hasta la hora de consumir. Para decorar añade granada, unas tiras de mango y alguna semilla. ",
+            "veggie": true,
+            "foto": "../images/recetas-desayunos/yogur-de-coco.jpg"
+        }
+    ]
+}

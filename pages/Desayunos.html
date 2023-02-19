@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
-    <title>Recetario</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Recetario | Desayunos</title>
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel="icon" href="images/icons/chef-hat.png">
     <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
@@ -26,8 +26,8 @@
             <div class=" dropdown ">
                 <button class="dropbutton">Menú</button>
                 <div class="drop-content">
-                    <a href="#">Almuerzos y cenas</a>
-                    <a href="./pages/Desayunos.html">Desayunos y meriendas</a>
+                    <a href="../index.html">Almuerzos y cenas</a>
+                    <a href="#">Desayunos y meriendas</a>
                 </div>
             </div>
             <h4 class="greetings" id="greetings"></h4>
@@ -44,10 +44,7 @@
             <button class="randomRecipeButton" id="randomButton">
                 <i class="fa fa-dice-five fa-2x slow-spin"></i>
             </button>
-            <div class="reset-vegano">
-                <h4 class="ingredient">Si querés volver a ver recetas no veganas, presioná el botón 👉</h4>
-                <button class="button" id="reset-vegano"><i class="fa fa-rotate reset-vegano-button"></i></button>
-            </div>
+            
         </div>
 
 
@@ -76,15 +73,15 @@
 
     <footer class="footer">
         <ul class="footer-list">
-            <li class="footer-opt"><a href="./pages/Desayunos.html">Desayunos y meriendas</a></li>
-            <li class="footer-opt"><a href="#">Almuerzos y cenas</a></li>
+            <li class="footer-opt"><a href="#">Desayunos y meriendas</a></li>
+            <li class="footer-opt"><a href="../index.html"></a>Almuerzos y cenas</li>
             <!-- <li class="footer-opt">test</li> -->
         </ul>
     </footer>
     <script
         src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/main.js" type="module"></script>
+    <script src="../js/desayunos.js" type="module"></script>
     <script>
         AOS.init();
     </script>

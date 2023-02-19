@@ -1,0 +1,315 @@
+{
+    "recetas": [
+        {
+            "nombreReceta": "Tostadas caprese",
+            "ingredientes": [
+                "Tomate",
+                "Albahaca",
+                "Aceite de oliva",
+                "Oregano",
+                "Pan",
+                "Ajo"
+            ],
+            "instrucciones": "1. En primer lugar, para hacer esta tostada caprese (o caprese panini) procuraremos que la rebanada de pan no sea muy fina y que tenga una densa miga que permita y aguante la colocación del resto de los ingredientes, como se explica a continuación.\n\n2. Con la elección del pan hecha, ponemos a tostar la rebanada y mientras vamos lavando y troceando el tomate en daditos pequeños. Hecho esto, colocamos el tomate sobre la rebanada de pan, y encima ponemos la mozzarella cortada en finas lonchas.\n\n3. Una vez montada, metemos nuestra tostada caprese en el horno o en el microondas y seleccionamos la función grill (si haces las tostadas caprese en microondas, asegúrate primero de que tiene función grill) hasta que el pan esté doradito y el queso quede ligeramente fundido.\n\n4. Por último, sacamos las tostadas caprese del horno o microondas con cuidado de no quemarnos, y decoramos con las hojas de albahaca frescas. ¡Una tostada fresca y sabrosa para las cenas de verano!",
+            "veggie": true,
+            "foto": "./images/recetas-almuerzos/tostada-caprese.jpg"
+        },
+        {
+            "nombreReceta": "Sandwich de pollo",
+            "ingredientes": [
+                "Queso",
+                "Pollo",
+                "Tomate",
+                "Lechuga",
+                "Pan"
+            ],
+            "instrucciones": "Trituramos un poco de queso roquefort blando (a temperatura ambiente) con el tenedor y lo ligamos todo con una cucharada de mayonesa. Montamos el sandwich untando el pan con la salsa, y cubriendo con el pollo, las rodajas de tomate y la lechuga muy bien escurrida. Servimos al momento para que el pan no se humedezca.",
+            "veggie": false,
+            "foto": "./images/recetas-almuerzos/sandwich-pollo.jpg"
+        },
+        {
+            "nombreReceta": "Ensalada de brocoli",
+            "ingredientes": [
+                "Brócoli",
+                "Tomate cherry",
+                "Ajo",
+                "Aceite de oliva",
+                "Vinagre"
+            ],
+            "instrucciones": "1.Cocemos el brócoli en abundante agua hirviendo con una pizca de sal. Dejamos cocer durante 10-12 minutos.\n\n2.En una sartén sofreímos el diente de ajo y los tomates cortados por la mitad. Agregamos un poco de sal.\n\n3.Cortamos el brócoli en arbolitos pequeños y agregamos los tomates cherry salteados. El ajo lo retiramos.\n\n4.Para servir la ensalada de brócoli y tomates, podemos agregar un poco más de sal si lo requiere, pimienta negra molida y un chorrito de vinagre de vino blanco.",
+            "veggie": true,
+            "foto": "./images/recetas-almuerzos/ensalada-brocoli.jpg"
+        },
+        {
+            "nombreReceta": "Bifes a la criolla",
+            "ingredientes": [
+                "Carne Bovina",
+                "Papa",
+                "Zanahoria",
+                "Cebolla",
+                "Morrón",
+                "Tomate"
+            ],
+            "instrucciones": "1.\tCortar la cebolla en juliana. Para esto primero la cortamos a la mitad y luego en láminas finas.\n2.\tQuitarle las semillas al morrón y cortarlo en tiras, un poco más grueso que la cebolla.\n3.\tPicar la cebolla de verdeo en trozos bien pequeños. Ojo con quitarle la parte verde, que es la parte más rica de la cebolla de verdeo. Solo le quitamos las puntas y el resto lo picamos todo.\n4.\tPicar también dos dientes de ajo. Quitarle el brote del medio y luego cortar en trozos bien chiquititos.\n5.\tLa zanahoria la pelamos y la cortamos en rodajas medianas.\n6.\tLas papas por último las cortamos en rodajas un poco más gruesas. Yo las pelé pero en el caso de que prefieran hacerlas con cáscara pueden lavarlas bien y solo cortarlas en rodajas, sin pelar.\n7.\tPelar los tomates y picarlos lo máximo posible.\n",
+            "veggie": false,
+            "foto": "./images/recetas-almuerzos/bifes-criolla.jpg"
+        },
+        {
+            "nombreReceta": "Hasselback de pechuga de pollo",
+            "ingredientes": [
+                "1 unidad de pimentón verde",
+                "0.5 cucharadita de Pimienta",
+                "1 taza de queso rallado",
+                "1 cucharada de aceite de oliva",
+                "2 unidad de pechuga de pollo",
+                "0.5 cucharadita de paprika",
+                "1 unidad de berenjena",
+                "1 unidad de zapallo italiano",
+                "1 unidad de pimientos amarillo",
+                "1 unidad de tomate"
+            ],
+            "instrucciones": "Precalentar el horno a 180°c\n\nUsar una mandolina o cortar rodajas de zapallito y berenjena de manera muy fina. Dejar remojando la berenjena en agua con sal por unos minutos.\n\nPelar el tomate y cortarlo en cuartos, quitándole la pulpa, luego en tiras. Limpiar los pimentones de sus pepitas y luego en tiras.\n\nEn una sartén con aceite y dorar las pechugas, cortándolas por la mitad. Sazonar con sal a gusto.\n\nLuego cortar varias líneas a lo ancho sin que pase el cuchillo totalmente por la pechuga, así poder colocar los trozos de verduras picadas.\n\nMezclar el aceite de oliva, pimienta y paprika, pintándola por encima del pollo y hornear por 10 minutos. Sacar, volver a pintar y espolvorear el queso rallado, terminando de cocinar por otros 10 minutos.\n",
+            "veggie": false,
+            "foto": "./images/recetas-almuerzos/hasselback-pollo.jpg"
+        },
+        {
+            "nombreReceta": "Pollo al curry",
+            "ingredientes": [
+                "1 unidad de cebolla",
+                "0.5 taza de aceite",
+                "2 unidad de papas",
+                "1 taza de arroz",
+                "1 unidad de zanahoria",
+                "1 unidad de morrón rojo",
+                "2 unidad de pechuga de pollo",
+                "0.5 cucharadita de curry",
+                "2 taza de Agua"
+            ],
+            "instrucciones": "\nEn una olla ponemos el arroz con el agua un poco de aceite restado del total de la receta el curry y sal llevamos al fuego y cuando se este secando bajamos el fuego al mínimo y tapamos por 5 minutos luego apagamos y dejamos tapado hasta que lo vayamos a utilizar\n\nAparte en una sartén grande ponemos todos los ingredientes restantes y sofreímos rectificamos la sal y revolvemos constantemente, agregamos un poquito de agua y dejamos cocinar hasta que la papa y zanahoria estén blandas y el pollo cocido\n\nEn este punto le agregamos el arroz que teníamos tapado bajamos un poco el fuego mezclamos bien y listo",
+            "veggie": false,
+            "foto": "./images/recetas-almuerzos/pollo-curry.png"
+        },
+        {
+            "nombreReceta": "Risotto de calabaza",
+            "ingredientes": [
+                "150 gr. de arroz",
+                "200 gr. de calabaza",
+                "1 cebolla",
+                "½ litro de caldo (de verduras o de pollo)",
+                "1 vaso de vino blanco",
+                "1 cucharadita de mantequilla",
+                "30 gr. de parmesano rallado",
+                "Sal",
+                "Pimienta"
+            ],
+            "instrucciones": "Antes de empezar pelaremos la calabaza y la cortaremos en brunoisse (es decir, en daditos). Reservamos.\n\nPonemos a calentar en una olla una cucharadita de mantequilla. Mientras se derrite, picaremos la cebolla todo lo finita que podamos y la pondremos a pochar en la mantequilla ya derretida, a fuego medio.\n\n\nCuando la cebolla ya esté pochada, añadiremos los daditos de calabaza y el arroz. Salpimentaremos al gusto y a continuación añadiremos el vasito de vino blanco. Mezclamos todo bien y dejamos reducir el vino durante un par de minutos. Importante: no dejes de remover.\n\n\nEmplatamos y servimos para degustar de inmediato (el risotto no espera!!!) Se puede decorar con más parmesano en lascas o con un poco de perejil, ya sea picado y espolvoreado o directamente con un buen ramillete.",
+            "veggie": true,
+            "foto": "./images/recetas-almuerzos/risotto-calabaza.webp"
+        },
+        {
+            "nombreReceta": "Pollo al horno con papas y cebollas",
+            "ingredientes": [
+                "1 pollo entero o 4 muslos completos (cuartos traseros)",
+                "4 patatas medianas",
+                "4 cebollas medianas",
+                "aceite de oliva",
+                "sal y pimienta",
+                "Tomillo seco"
+            ],
+            "instrucciones": "Comenzamos pelando las patatas. Una vez peladas, las cortamos en rodajas finas, de no más de 1 centímetro de grosor. Después, las ponemos como base en una bandeja para horno. Pelamos también las cebollas y las cortamos en tiras finas. La ponemos sobre la patata y salpimentamos todo.\n \nA continuación ponemos los muslos encima de las patatas y la cebolla. Le añadimos a todo un vaso de agua y un chorrete de aceite de oliva. Así quedará mas jugoso mientras se hornea. Nos aseguramos que en el fondo de la fuente, haya siempre humedad. Así la guarnición no se va a quemar. Salpimentamos y añadimos un buen pellizco de tomillo seco a cada muslo (o al pollo completo, si has elegido la pieza completa)\n\nMetemos el pollo al horno a 220ºC si utilizas muslos. calor arriba y abajo. Dejamos hornear unos 30 minutos, hasta que se dore bien. Si utilizas un pollo entero, horneamos a 190ºC.\n\nCuando esté bien dorado, sacamos la bandeja del horno, le damos la vuelta a las piezas. Así, se cocinará el otro lado.\n\nInmediatamente después, volvemos a meter la bandeja dentro del horno. Finalmente dejamos cocinar aproximadamente el mismo tiempo, hasta que todo quede bien cocinado.",
+            "veggie": false,
+            "foto": "./images/recetas-almuerzos/pollo-al-horno.jpg"
+        },
+        {
+            "nombreReceta": "Tacos Mexicanos",
+            "ingredientes": [
+                "6 tortillas de trigo o de maíz",
+                "350g de carne picada de ternera o de pollo",
+                "4 dientes de ajo",
+                "500g de tomates",
+                "sal y pimienta",
+                "aceite",
+                "1 cebolla pequeña picada",
+                "1 jalapeño",
+                "2 tomates medianos",
+                "Unas hojas de cilantro",
+                "1/2 lima o 1/2 limón"
+            ],
+            "instrucciones": "Para comenzar con nuestros tacos mexicanos, picamos los ajos y los cocinamos a fuego muy suave durante 1 minuto. Que no coja color\n\nAñadimos el medio kilo de tomates, ya pelados y troceados y subimos la potencia del fuego. Salpimentamos y cocinamos durante un rato. El tomate soltará agua, debe evaporarse toda que, puede tartar un rato. Una vez evaporada dejamos cocinar a fuego suave mientras removemos constantemente, durante 5 minutos más, para que coja buen sabor\n\nMientras se evapora el agua de los tomates, preparamos el pico de gallo. El pico de gallo es una salsa que le viene al pelo a los tacos mexicanos. En un bol echamos toda la verdura de esta salsa bien picada. Añadimos el zumo de 1\/2 lima o de medio limón y removemos bien. Dejamos reposar\n\nCuando se haya cocinado un poco el tomate, añadimos la carne picada que hayamos elegido. Echamos su parte de sal y pimienta y cocinamos a fuego fuerte. Con una cuchara de madera, vamos removiendo todo y desmenuzando la carne picada, para que no que queden trozos grandes. De hecho, cuanto más finos queden mejor. Así que mezclamos con el tomate y el ajo, mientras la desmenuzamos y cocinamos la carne\n\nUna vez se haya cocinado, ¡ya está lista! Calentamos una a una las tortillas por sus dos caras en una sartén a fuego medio. Después ponemos encima unas cucharadas de la carne, aderezamos con un poco de pico de gallo, las envolvemos dándole la forma característica de taco ¡Y ya está listo!. Opcionalmente puedes espolvorear también queso rallado por encima",
+            "veggie": false,
+            "foto": "./images/recetas-almuerzos/tacos-mexicanos.jpg"
+        },
+        {
+            "nombreReceta": "Pollo frito estilo KFC",
+            "ingredientes": [
+                "8 patas de pollo",
+                "500ml de leche",
+                "300g de harina",
+                "1 cucharada de especias al gusto: orégano, pimentón, curry, cebolla en polvo, ajo en polvo",
+                "+1/2 cucharadita de las especias anteriores más 100g de harina",
+                "Sal y pimienta",
+                "Aceite"
+            ],
+            "instrucciones": "Lo Primero para hacer el pollo frito estilo KFC es prepapar una tempura. Para ello, ponemos en un recipiente bastante ancho 300g de la harina y una cucharada de cada una de las especias que hayamos elegido. Añadimos también un buen pellizco de sal. Quizás te parezca que sean demasiadas especias pero, aquí está el secreto de la receta. Además, a la hora de comer, dan ese gusto que deseamos pero, no llegan a notarse tanto en boca. Añadimos también la leche, entre 350 y 400 ml. La cantidad exacta va a depender bastante de la marca de harina empleada. La idea es mezclarlo todo con una varilla y que quede una masa más bien licuada pero, con bastante cuerpo. Cuando estén todos los ingredientes bien mezclados, pasamos la varilla sobre la tempura y, si se pega a ella pero enseguida cae, está será la textura exacta que deseamos.\n\nAhora metemos el pollo salpimentado dentro de la tempura. Lo cubrimos bien de la misma y lo tapamos. Lo dejamos macerar mínimo una hora en el frigorífico. Si es más tiempo, mejor.\n\nPasado el tiempo, preparamos el rebozado exterior que llevará el pollo. En un plato ponemos los 100g de harina que teníamos reservada y le añadimos media cucharadita de las mismas especias que le habíamos puesto anteriormente a la tempura. Removemos bien todo para que se mezclen todas las especias con la harina.\n\nSacamos el pollo del frigorífico y, sin quitarle demasiado exceso de la masa de la tempura, lo pasamos por la harina. Que se impregne bien de ella. Después lo metemos en abundante aceite de oliva, a fuego fuerte pero, no demasiado o quedarán crudos por el centro (yo lo hago a una potencia de 7, de 9 de máximo que tiene mi vitrocerámica) y lo freimos. Estarán listos en unos 10 minutos.",
+            "veggie": false,
+            "foto": "./images/recetas-almuerzos/pollo-frito.jpg"
+        },
+        {
+            "nombreReceta": "Lentejas con verduras",
+            "ingredientes": [
+                "400g de lentejas",
+                "1/2 puerro",
+                "1/2 cebolla",
+                "2 zanahorias",
+                "1 patata mediana",
+                "1 diente de ajo",
+                "Una cucharadita de pimentón",
+                "agua",
+                "1 hoja de laurel",
+                "sal y pimienta",
+                "Tres cucharadas de aceite de oliva"
+            ],
+            "instrucciones": "Hacer unas lentejas con verduras es una receta de cocina fácil, donde las haya. Primero pelamos y lavamos la patata y la zanahoria. Pelamos también la cebolla. Después cortamos el resto de la verdura en trocitos.\n\nAhora, metemos todos los ingredientes de nuestras lentejas con verduras en una cazuela alta. Los cubrimos bien de agua (dependerá de lo espesas que queramos las lentejas. A mí, que me gustan algo caldositas, agua hasta que cubra todos los ingredientes unos 3 dedos por encima) y los llevamos a ebullición.\n\nCuando haya roto a hervir, lo tapamos y dejamos que se cocine unos 20 minutos. Lo mejor es ir probando ya que no todas las lentejas tardan lo mismo en hacerse pero, pasados entre 20-30 minutos, lo probamos. Cuando estén blanditas, estarán listas para comer.",
+            "veggie": true,
+            "foto": "./images/recetas-almuerzos/lentejas-con-verduras.jpg"
+        },
+        {
+            "nombreReceta": "Spaghettis al pesto",
+            "ingredientes": [
+                "400g de espaguetis",
+                "150g de hojas de albahaca. No incluyas el tallo, que amarga",
+                "300g de queso parmesano",
+                "2 dientes de ajo",
+                "100g de piñones",
+                "200ml de aceite de oliva",
+                "Sal"
+            ],
+            "instrucciones": "Cocemos los espagueti. Añadimos un puñadito de sal en una cazuela con abundante agua hirviendo. Después añadimos los espagueti y los removemos con frecuencia, especialmente los primeros minutos de la cocción. Para que no se peguen al fondo.\n\nMientras se cuecen, preparamos la salsa pesto. En un vaso batidor ponemos la albahaca, el queso parmesano (u otro de tu gusto pero, mejor que sea curado. Con sabor), los dientes de ajo, los piñones, que puedes sustituirlos por nueces o almendras y el aceite de oliva. Lo batimos bien hasta que nos quede una salsa verde y bastante densa.\n\nPonemos la salsa de los espaguetis al pesto en un bol grande. Y cuando los espaguetis estén al dente (tardarán unos 10 minutos de cocción), reservamos dos cucharones del caldo de la cocción. Unos 100ml. Y escurrimos los espaguetis del resto del agua\n\nActo seguido, ponemos los espagueti en el bol donde habíamos puesto el pesto. Añadimos el caldo de la cocción, que darán a la salsa un toque más cremoso y sobre todo añadirá mucho sabor y con un tenedor mezclamos durante un par de minutos. Para que los espaguetis absorban bien toda la salsa.",
+            "veggie": true,
+            "foto": "./images/recetas-almuerzos/espaguetis-al-pesto.jpg"
+        },
+        {
+            "nombreReceta": "Hamburguesas de lentejas",
+            "ingredientes": [
+                "100g de lentejas",
+                "100g de arroz redondo o largo",
+                "1 cebolla",
+                "1 zanahoria",
+                "Un diente de ajo",
+                "1 cucharada de pimentón",
+                "50g de pan rallado",
+                "Perejil fresco",
+                "1 hoja de laurel",
+                "Sal y pimienta",
+                "Aceite de oliva"
+            ],
+            "instrucciones": "Cocemos las lentejas. Importante, que al final queden con un poco de caldo. Para ello, las ponemos en una cazuela, junto con la cebolla cortada en finas tiras, la zanahoria cortada en cubos, el pimentón, un chorrete de aceite y la hoja de laurel. Cubrimos con agua, mezclamos y dejamos cocer hasta que estén blandas. En torno de 30 minutos a 1 hora, dependiendo de la variedad de lenteja. Es importante señalar que es mejor no pasarse de agua pues, queremos que la lenteja esté blanda, pero muy espesa. Añade de menos y si ves que le falta más, ve añadiendo poco a poco más agua durante la cocción.\n\nHacemos lo propio con el arroz de nuestra hamburguesa de lentejas y arroz. En otra cazuela, ponemos un chorrito de aceite a calentar a fuego medio. Cuando esté caliente añadimos el diente de ajo y esperamos a que se dore. Hecho esto, agregamos el arroz y mezclamos todo brevemente. Luego vertemos agua (doble de cantidad que de arroz) y dejamos cocer a fuego medio unos 20 minutos. Hasta que el arroz quede suave.\n\nPonemos el arroz y las lentejas, ya cocidos y sin la hoja de laurel, en un bol. Añadimos aquí una pizca de sal y de pimienta, un puñado de perejil picado y el pan rallado. Mezclamos todo hasta que todos los ingredientes de nuestra hamburguesa de lentejas y arroz queden bien integrados.\n\nUna vez bien mezclada la masa, cogemos una pequeña porción con las manos y le damos forma de hamburguesa. Puedes humedecerte un poco las manos para ayudarte en este proceso. Hecho esto, la introducimos en una plancha, con un chorrito de aceite y cocinamos bien por ambas caras. Es mejor hacerlas en muy pocas tandas, para asegurarnos que no se deshacen a la hora de darles la vuelta.\n\nPuedes acompañarla en un pan para hamburguesa, junto con lechuga, tomate, cebolla y un poco de kétchup. O junto a tus ingredientes favoritos.",
+            "veggie": true,
+            "foto": "./images/recetas-almuerzos/hamburguesa-de-lentejas.jpg"
+        },
+        {
+            "nombreReceta": "Arroz viudo con verduras",
+            "ingredientes": [
+                "1/2 pimiento rojo y 1/2 pimiento verde",
+                "1 puerro",
+                "1/2 calabacín",
+                "100g de setas",
+                "25g de judías verdes",
+                "2 dientes de ajo",
+                "200g de tomate triturado",
+                "1 cucharadita de pimentón y unas hebras de azafrán",
+                "25g de guisantes",
+                "unas ramas de brócoli",
+                "400ml de caldo de verduras",
+                "aceite de oliva",
+                "sal"
+            ],
+            "instrucciones": "En una paellera o sartén amplia, calentamos a fuego suave un chorrito de aceite. Cuando esté caliente añadimos el puerro, el pimiento rojo y el verde, y el calabacín, todo bien picados. Añadimos también las judias verdes y las setas, ambas en trozos más grandes. Echamos una pizca de sal y cocinamos todo durante 10 minutos, removiendo con frecuencia.\n\nPasado ese tiempo, continuamos con la elaboración de nuestro arroz viudo con verduras. Subimos a fuego medio y añadimos el tomate triturado junto con un poco más de sal. Removemos para repartir bien el tomate y dejamos que se cocine todo 5 minutos, removiendo de vez en cuando.\n\nHecho esto añadimos el pimentón, las hebras de azafrán y la carne de pimiento choricero. Integramos con los demás y dejamos que todo se cocine otros 5 minutos.\n\nAhora vamos a añadir el arroz y a mezclarlo con el resto de ingredientes hasta que quede bien repartido por la paellera. Es importante que quede bien mezclado, ya que cuando añadamos el caldo no podremos remover o el arroz soltará su almidón y estropeará el plato.\n\nAñadimos el caldo de verduras junto con una pizca generosa de sal. Es preferible que el caldo quede un poco salado o el arroz viudo con verduras quedará soso. Dejamos que se cocine durante 5 minutos a fuego medio.\n\nA continuación vamos a añadir los guisantes. Los añadimos en este punto ya que cuecen de forma más rápida que el resto de verduras. Pasados 5 minutos añadimos también el brócoli, por el mismo motivo.\n\nCon todos los ingredientes añadidos, no hay más que dejar que acabe de cocerse. Eso sucederá en otros 10 minutos y lo normal es que quede al dente. Si todavía vemos que el arroz queda demasiado seco o poco hecho, podemos añadir un poco más de caldo de verduras y dejar que se cocine unos pocos minutos,  hasta que el arroz absorba el agua por completo.",
+            "veggie": true,
+            "foto": "./images/recetas-almuerzos/arroz-viudo.jpg"
+        },
+        {
+            "nombreReceta": "Gazpacho",
+            "ingredientes": [
+                "1kg de tomate pera",
+                "1/2 cebolleta",
+                "1/4 de pepino",
+                "1 diente de ajo",
+                "1/4 de pimiento verde",
+                "sal",
+                "200ml de aceite de oliva",
+                "200ml de agua",
+                "1 chorrito de vinagre blanco"
+            ],
+            "instrucciones": "Para comenzar con nuestra receta de gazpacho facil, pelamos los tomates y los cortamos en trocitos, para ayudar a su triturado.\n\nIntroducimos todos los ingredientes en una batidora y trituramos todo bien durante unos minutos. Al final debe quedar un jugo homogéneo, de color rojizo y con cierto cuerpo. Pero tampoco demasiado. Se trata de conseguir una especie de sopa fría. Si crees que te ha quedado muy denso, añade algo más de agua. Puedes decorar con más pimiento verde y cebolla picada por encima, si lo deseas. Servir inmediatamente.",
+            "veggie": true,
+            "foto": "./images/recetas-almuerzos/gazpacho.jpg"
+        },
+        {
+            "nombreReceta": "Falafel",
+            "ingredientes": [
+                "1/2 Medio kilo de garbanzos",
+                "1 cebolla",
+                "3 dientes de ajo",
+                "1 puñado de perejil fresco",
+                "1 puñado de cilantro fresco",
+                "50-75g de pan rallado",
+                "1 cucharada de comino molido",
+                "1 cucharada de bicarbonato sódico",
+                "Sal y pimienta",
+                "Aceite para freír"
+            ],
+            "instrucciones": "La noche anterior, en una cazuela ponemos los garbanzos y añadimos abundante agua, que los cubra bien. Dejamos reposar toda la noche.\n\nAl día siguiente, comenzamos con la elaboración de nuestro falafel casero. En una batidora ponemos los garbanzos ya escurridos de su agua -es importante que la batidora sea potente ya que tenemos que triturar los garbanzos en crudo-. Añadimos además, la cebolla troceada, los ajos enteros y las hojas de cilantro y perejil. Por último, agregamos abundante agua. El agua nos ayudará a triturar mejor todos los ingredientes, sin estropear la batidora.\n\nHecho esto, obtendremos una pasta líquida. En un bol, ponemos esta pasta y añadimos una pizca de sal y una buena pizca de pimienta negra recién molida. Añadimos además una cucharada de comino molido, una cucharada de bicarbonato sódico y pan rallado para espesar nuestra pasta. Mezclamos bien para que se integren todos los ingredientes hasta obtener una masa bastante maleable. \n\nA continuación tapamos el bol y lo dejamos reposar en la nevera unos 30 minutos. Si lo prefieres, puedes incluso, ponerlo en el congelador unos 15 minutos. De este modo, será más facil poder dar forma después a nuestro falafel casero.\n\nPasado este tiempo, retiramos el bol del frigorífico. Cogemos una pequeña porción de la masa y la damos forma de bola, como si estuviésemos boleando una croqueta.\n\nCuando hayamos acabado con toda la masa, en una cazuela con abundante aceite caliente -unos 160ºC aproximadamente- introducimos por tandas nuestras bolitas de falafel. Dejamos que se frían alrededor de unos 2 minutos sin remover. \n\nFinalmente, retiramos las bolitas del aceite y las reservamos en un plato con papel absorvente. Servimos inmediatamente.",
+            "veggie": true,
+            "foto": "./images/recetas-almuerzos/falafel.jpg"
+        },
+        {
+            "nombreReceta": "Spaghettis de calabacin",
+            "ingredientes": [
+                "3 calabacines grandes",
+                "Será",
+                "aceite de oliva"
+            ],
+            "instrucciones": "Lo más complicado de la receta es el corte de los espaguetis. Pero no es difícil. El truco está en cortar los calabacines de la forma correcta. Primero, lo cortamos a lo largo de los mismos en lonchas. Estrechas, pero no demasiado ya que al cocinarlas soltarán el agua, encogerán y se pueden quedar en nada. Después, el corte se lo haremos a lo largo de cada loncha, más o menos de la misma anchura. Al final, deben quedar unas tiritas algo más anchas que unos espaguetis o tallarines.\n\nEn una cazuela ancha, con muy poquito aceite ponemos las tiras del calabacín y las salteamos aquí a fuego muy fuerte durante tan sólo un minuto, tiempo suficiente para que se cocinen parcialmente. Reservamos\n\nAhora preparamos nuestra salsa favorita. Por ejemplo, una salsa de tomate, una marinara, una salsa de queso, una salsa de ajitos y gambas… En fin, lo que más te guste. Cuando esté lista, simplemente introducimos los espagueti dentro de esta salsa y cocinamos todo tres o cuatro minutos más. hasta que el calabacín esté «al dente» y se haya integrado bien con la salsa.",
+            "veggie": true,
+            "foto": "./images/recetas-almuerzos/espaguetis-de-calabacin.jpg"
+        },
+        {
+            "nombreReceta": "Ensalada Caesar",
+            "ingredientes": [
+                "2 lechugas romanas",
+                "150ml de aceite de oliva",
+                "1 huevo",
+                "200g de queso parmesano",
+                "jugo de 1/2 limón",
+                "40g de anchoas en conserva",
+                "1 cucharadita de mostaza",
+                "1 diente de ajo",
+                "100g de picatostes (pan tostado cortado en cubos)",
+                "1 cucharadita de salsa inglesa «worcester»",
+                "2 pechugas de pollo",
+                "tomates cherrys (opcional)",
+                "rúcula (opcional)",
+                "Sal y pimienta",
+                "chorrito de aceite de oliva más, para cocinar las pechugas"
+            ],
+            "instrucciones": "Lo más importante de esta receta: La salsa césar. Para prepararla, en un vaso batidor ponemos el huevo, los 200ml de aceite de oliva, y el jugo del limón. Ponemos una batidora manual o turmix en el fondo del mismo y le damos «caña». Pasados 10 segundos, levantamos un poquito la batidora, sin parar de batir. Dejamos 5 segundos más y ya podemos subir y bajar continuamente la batidora, siempre sin parar de batir. Ya tendremos nuestra mayonesa hecha, la base de la salsa césar. Ten en cuenta que debe quedar algo líquida, porque le vamos a añadir a continuación más ingredientes.\n\nPara obtener nuestra salsa césar, añadimos a la mayonesa que acabamos de preparar, un diente de ajo, el jugo del limón, las anchoas, escurridas de su aceite, la mostaza, la salsa worcester, y unos 50g del queso parmesano. Volvemos a batir todo. Con estos ingredientes tan sólidos, conseguiremos una salsa con más cuerpo. Si te queda muy densa, puedes añadir un pequeño chorrito de leche y remover, hasta que quede una salsa con cierto cuerpecito pero, tirando a líquida.\n\nUna vez preparada la salsa, seguimos con la elaboración de nuestra ensalada César. Salpimentamos y cortamos las pechugas de pollo en cubos de tamaño de bocado. Las ponemos en una sartén, con un chorrito de aceite y a fuego fuerte, y las cocinamos unos minutos. Que cojan color por fuera y se cocinen en su interior.\n\nMientras se cocina el pollo, en el fondo de una ensaladera, ponemos un par de cucharadas de la salsa que acabamos de elaborar. sobre ella, colocamos la lechuga cortada en trozos, los tomates cherrys y la rúcula (estos dos últimos ingredientes, no son típicos de la ensalada cesar. Pero a mí, me encantan) los picatostes, el resto del queso parmesano, cortado en lascas finas y finalmente, el pollo, cuando esté totalmente cocinado. Terminamos aderezando nuestra ensalada con más salsa césar. Sírvelo inmediatamente, porque el calor del pollo, le va a dar un toque de ensalada templada muy interesante.",
+            "veggie": false,
+            "foto": "./images/recetas-almuerzos/ensalada-cesar.jpg"
+        },
+        {
+            "nombreReceta": "Berejenas rellenas de atún",
+            "ingredientes": ["4 berenejenas", "300g de atún en conserva", "1 cebolla", "1 pimiento rojo", "300g de salsa de tomate", "50g de queso rallado", "1 cucharada de orégano seco", "Sal y pimienta", "Aceite"],
+            "instrucciones":  "Cortamos las berenjenas por la mitad. Hacemos unos cortes a la pulpa con forma de malla, con cuidado de no romper la cáscara. Hecho esto, echamos un chorrito de aceite y lo introducimos en el horno previamente calentado a 180ºC, calor arriba y abajo. Dejamos que las berenjenas se cocinen durante unos 20 minutos.\n\nMientras tanto, preparamos el relleno de nuestras berenjenas rellenas de atún. En una sartén, ponemos un chorrito de aceite a calentar a fuego medio. Cuando esté caliente añadimos una cebolla y un pimiento rojo. Ambos ingredientes bien picados. Salpimentamos y removemos para integrar todos los ingredientes. Bajamos la potencia del fuego a suave y dejamos cocinar unos 15 minutos.\n\nCuando las berenjenas estén listas, las retiramos del horno y extraemos su pulpa con ayuda de una cuchara. Agregamos esta pulpa picada al sofrito que estábamos preparando. Añadimos también el atún, la salsa de tomate y una cucharada de orégano seco. Integramos con el resto de ingredientes y rellenamos las cáscaras de nuestras berenjenas, siendo generosos con el relleno.\n\nFinalmente, espolvoreamos nuestras berenjenas rellenas de atún con un poco de queso rallado y lo introducimos nuevamente en el horno. Ponemos el grill a 200ºC hasta que el queso se gratine. Servimos inmediatamente.",
+            "veggie": false,
+            "foto": "./images/recetas-almuerzos/berenjenas-rellenas-de-atun.jpg"
+        },
+        {
+            "nombreReceta": "Spaghettis a la carbonara",
+            "ingredientes": ["400g de espagueti", "2 huevos", "150g de queso curado (parmesano, manchego…)", "120g de bacon o panceta", "sal y pimienta", "un pequeño chorrito de aceite de oliva"],
+            "instrucciones": "Ponemos un puñadito de sal (generoso) en abundante agua hirviendo. Después añadimos los espagueti y los dejamos cocer aquí alrededor de 10 minutos. hasta que estén al «dente». Conviene removerlos con frecuencia sobre todo al principio de la cocción, para que no se peguen.\n\nMientras se cuecen preparamos la carbonara. En un bol añadimos las yemas de los huevos. La clara es mejor guardarla para otra elaboración ya que, si la añadimos, parecerá más una tortilla de espaguetis, que una salsa en sí. Pero si no te importa, puedes añadirla. Añadimos también el queso rallado y mezclamos ambos ingredientes con un tenedor. Quedará una especie de masa muy densa y ésta, será la carbonara.\n\nEn una sartén ponemos un pequeño chorrito de aceite. Cuando esté bien caliente, añadimos el bacon o la panceta, cortado en dados más bien pequeños. Pasados un par de minutos, cuando estén fritos, retiramos del fuego y reservamos\n\nUna vez hecho esto y cuando los espaguetis estén cocinados, guardamos unos cuantos cucharones del caldo de la cocción. Después escurrimos los espaguetis del resto del caldo\n\nSin demora, ya que será el propio calor residual de los espagueti los que vayan a cocinar la carbonara, echamos la pasta en el bol donde la habíamos preparado. Añadimos el bacon, con el juguito que hayan podido soltar y un poco del caldo de la cocción. Removemos todo bien con un tenedor para que los espaguetis absorban toda la salsa. Si ves que queda muy densa, puedes añadir más caldo de la cocción, hasta que haya quedado una salsa muy cremosa (no olvides remover enérgicamente todo. La pasta es muy porosa y absorbe las salsa con relativa facilidad. Pero necesita ser removido para ayudar a este proceso)\n\nFinalmente, cuando hayamos conseguido la cremosidad de la salsa deseado, espolvorear con abundante pimienta negra recién molida. Se dice que el nombre «carbonara» viene del color que le da esta especia, que recuerda el color del carbón. Servir inmediatamente",
+            "veggie": false,
+            "foto": "./images/recetas-almuerzos/espagueti-a-la-carbonara.jpg"
+        }
+    ]
+}

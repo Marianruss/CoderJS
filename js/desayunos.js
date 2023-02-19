@@ -5,17 +5,16 @@ let recetas = [];
 
 //Cargamos a un array la info del json.
 async function loadToArray(array) {
-    await fetch('./json/recetas-almuerzos.json')
+    await fetch('../json/recetas-desayunos.json')
         .then((resp) => resp.json())
         .then((data) => {
             for (let i = 0; i < data.recetas.length; i++) {
                 array.push(data.recetas[i])
             }
             vegano()
-            if (localStorage.getItem("vegano")=== "true"){
+            if (localStorage.getItem("vegano") === "true"){
                 eliminarRecetasVeganas()
             }
-           
 
 
         })
@@ -64,20 +63,11 @@ async function init() {
     await loadToArray(recetas);
 
     getName()
-    if (localStorage.getItem("vegano") === null){
-        vegano()
-    }
-    
+    vegano()
 
     if (localStorage.getItem("vegano") === "true") {
         eliminarRecetasVeganas()
     }
-
-    let resetVegano = document.getElementById("reset-vegano")
-    resetVegano.addEventListener("click", () => {
-        localStorage.removeItem("vegano")
-        location.reload()
-    })
 
     let botonBuscar = document.getElementById("randomButton");
     botonBuscar.addEventListener("click", () => {
@@ -105,6 +95,7 @@ function eliminarRecetasVeganas() {
             i--;
         }
     }
+    // setRecipe(numero)
 }
 
 
