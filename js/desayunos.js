@@ -32,6 +32,22 @@ function getRandomNumber() {
     }}}
 
 
+    function mediaQuery(){
+        let res = "(max-width:550px)"
+        var mq = window.matchMedia(res)
+    
+        if (mq.matches){
+            let boton = document.getElementById("randomButton")
+            boton.addEventListener("click", () =>{
+                let win = document.getElementById("recipe")
+                win.style.display = "block"
+                addButtonToDiv()
+            })
+        }
+    }
+    
+
+
 function setRecipe(recipeNumber) {
 
     let recipe = recetas[recipeNumber];
@@ -126,6 +142,23 @@ function getName() {
 }
 
 
+function addButtonToDiv(){
+    let div = document.getElementById("recipe")
+    let button = document.createElement("button")
+
+    button.innerHTML = "Cerrar"
+
+    button.classList.add("closeButton")
+    button.id = "closeButton"
+
+    button.addEventListener("click", () =>{
+        div.style.display = "none"
+    })
+
+    div.appendChild(button)
+
+}
+
 
 
 
@@ -157,5 +190,5 @@ function showArray(array) {
 
 
 init()
-
+mediaQuery()
 

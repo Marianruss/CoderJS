@@ -28,9 +28,7 @@
     width: 60px;
     height: 40px;
     align-self: flex-end;
-    /* margin-top: 80px; */
     margin-right: 30px;
-    /* margin-bottom: 30px; */
     background-color: #C0C0C0;
     border-radius: 40px;
 }
@@ -81,7 +79,7 @@
 .check-recetas-title {
     font-size: 13px;
     margin: 10px;
-    /* margin-top: 50px; */
+    margin-top: 50px;
     color: white;
 }
 
@@ -103,7 +101,6 @@ header .nav-bar .dropdown {
 
 header .nav-bar .dropdown:hover .drop-content {
     display: block;
-    /* width: 150px; */
 }
 
 header .nav-bar .dropdown .dropbutton {
@@ -185,9 +182,8 @@ header .nav-bar .drop-content a:hover {
 }
 
 .recipe-photo {
-    /* background-image: url("../images/tostada-caprese.jpg"); */
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     align-self: center;
     object-fit: fill;
     margin-left: 70px;
@@ -293,7 +289,23 @@ header .nav-bar .drop-content a:hover {
     color: white;
 }
 
-@media (max-width:465px) {
+.closeButton{
+    margin-right: 10px;
+    margin-top: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 40px;
+    align-self: flex-end;
+    background-color: #C0C0C0;
+    border-radius: 40px;
+    
+}
+
+
+
+@media (max-width:550px) {
 
     .main-content {
         flex-direction: column;
@@ -301,24 +313,33 @@ header .nav-bar .drop-content a:hover {
 
     .body {
         /* width: 300px; */
-        height: auto;
+        min-height: 100vh;
         margin: 0px;
     }
 
+    .greetings{
+        margin-bottom: 0px;
+        align-self: center;
+    }
+
     .check-recetas {
-        width: 272px;
+        width: 100%;
         margin-bottom: 50px;
+        margin-left: 0px;
         justify-self: center;
     }
 
     .recipe {
-        flex-direction: column;
-        height: auto;
-        margin-bottom: 30px;
-        /* width: 350px; */
-        height: 500px;
-        margin-right: 0px;
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(5, 62, 90);
+        border-radius: 10px;
+        margin-right: 30px;
+        width: 90%;
+        height: 100%;
+        position: absolute;
         overflow-y: scroll;
+        display: none;
 
     }
 
@@ -330,7 +351,10 @@ header .nav-bar .drop-content a:hover {
         row-gap: 0px;
         column-gap: 0px;
         grid-template-columns: repeat(1, 1fr);
+    }
 
+    .check-recetas-title{
+        font-size: 20px;
     }
 
     .recipe-photo {
@@ -339,6 +363,10 @@ header .nav-bar .drop-content a:hover {
         margin-top: 30px;
         margin-left: 0px;
         border-radius: 40px;
+    }
+
+    .check-recetas{
+        height: 600px;
     }
 
     .botones {
@@ -369,6 +397,7 @@ header .nav-bar .drop-content a:hover {
 
     .footer {
         width: 100%;
+        margin-top: 85%;
     }
 
 
